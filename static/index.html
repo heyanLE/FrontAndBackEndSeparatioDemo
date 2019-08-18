@@ -1,0 +1,28 @@
+<html lang="zh">
+<head>
+    <title>Demo 首页</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Demo 首页</h1>
+
+<p id="login_p">
+    你好：<span id="username_span"></span>
+    <a href="#" onclick="loginOut()">登出</a>
+</p>
+
+<p id="dis_login_p">
+    当前未登录。 <br>
+    <a href="/login.html">登录</a> <a href="/register.html">注册</a>
+</p>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/fetch.js"></script>
+<script src="js/main.js"></script>
+<script>
+    getUserNow()
+</script>
+
+</body>
+</html>
